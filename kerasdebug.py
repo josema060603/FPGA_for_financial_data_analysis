@@ -22,7 +22,7 @@ def build_mlp_model(input_dim):
     
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
     return model
-results_file="results_2025.txt"
+results_file="results_2015.txt"
 X_test = np.load("prepared/X_test.npy").astype("float32")
 y_test = np.load("prepared/y_test.npy").astype("float32")
 # 1) Rebuild the architecture with the SAME input_dim as original

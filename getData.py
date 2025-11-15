@@ -240,7 +240,7 @@ def download_etf_data(ticker='VNQ', years=10):
     print(f"Ticker: {ticker}")
     print(f"Period: {years} years")
     end_date = datetime.now()
-    # end_date = datetime.now() - timedelta(days=years*365)
+    end_date = datetime.now() - timedelta(days=years*365)
     start_date = end_date - timedelta(days=years*365)
     print(f"Date range: {start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')}")
     

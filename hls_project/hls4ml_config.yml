@@ -1,0 +1,78 @@
+Backend: Vitis
+ClockPeriod: 100
+ClockUncertainty: 27%
+HLSConfig:
+  LayerName:
+    hidden_1:
+      Precision:
+        accum: ap_fixed<32,18>
+        bias: ap_fixed<32,18>
+        result: ap_fixed<32,18>
+        weight: ap_fixed<32,18>
+      ReuseFactor: 32
+      Trace: false
+    hidden_1_input:
+      Precision:
+        result: ap_fixed<32,16>
+      Trace: false
+    hidden_1_relu:
+      Precision:
+        result: auto
+      Trace: false
+    hidden_2:
+      Precision:
+        accum: ap_fixed<32,18>
+        bias: ap_fixed<32,18>
+        result: ap_fixed<32,18>
+        weight: ap_fixed<32,18>
+      ReuseFactor: 32
+      Trace: false
+    hidden_2_relu:
+      Precision:
+        result: auto
+      Trace: false
+    hidden_3:
+      Precision:
+        accum: ap_fixed<32,18>
+        bias: ap_fixed<32,18>
+        result: ap_fixed<32,18>
+        weight: ap_fixed<32,18>
+      Trace: false
+    hidden_3_relu:
+      Precision:
+        result: auto
+      Trace: false
+    output:
+      Precision:
+        accum: ap_fixed<32,18>
+        bias: ap_fixed<32,18>
+        result: ap_fixed<32,18>
+        weight: ap_fixed<32,18>
+      Trace: false
+    output/Sigmoid:
+      Precision:
+        result: ap_fixed<32,20>
+    output_sigmoid:
+      Precision:
+        result: auto
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision:
+      default: fixed<16,6>
+    ReuseFactor: 32
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model '/home/jbarrios30/senior_design_project_v3_housingbased/hls_project/keras_model.keras'
+OutputDir: /home/jbarrios30/senior_design_project_v3_housingbased/hls_project
+OutputPredictions: null
+Part: xc7z020clg400-1
+ProjectName: myproject
+Stamp: 16f1338f
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  WriteTar: false
+  WriteWeightsTxt: true

@@ -81,10 +81,10 @@ print("Keras emu MAE:", mae)
 print("y_keras min/max:", float(y_pred_keras_raw.min()), float(y_pred_keras_raw.max()))
 print("Keras emu accuracy:", accuracy)
 
-with open(results_file, "w") as f:   # use "a" instead of "w" if you want to append
-    print("Keras emu MAE:", mae, file=f)
-    print("y_keras min/max:", float(y_pred_keras_raw.min()), float(y_pred_keras_raw.max()), file=f)
-    print("Keras emu accuracy:", accuracy, file=f)
+# with open(results_file, "w") as f:   # use "a" instead of "w" if you want to append
+#     print("Keras emu MAE:", mae, file=f)
+#     print("y_keras min/max:", float(y_pred_keras_raw.min()), float(y_pred_keras_raw.max()), file=f)
+#     print("Keras emu accuracy:", accuracy, file=f)
 
 # 4) Widen INPUT; keep OUTPUT reasonable (±32 is fine for y_max≈24)
 cfg['LayerName'].setdefault(in_name, {}).setdefault('Precision', {})
@@ -115,7 +115,7 @@ hls_model = hls4ml.converters.convert_from_keras_model(
     hls_config=cfg,
     backend='Vitis',
     part='xc7z020clg400-1',
-    clock_period=100,
+    clock_period=10,
     io_type='io_parallel',      # or 'io_stream' if you prefer
     output_dir=outdir
 )
@@ -133,10 +133,10 @@ print("HLS emu MAE:", mae)
 print("y_hls min/max:", float(y_hls.min()), float(y_hls.max()))
 print("HLS emu accuracy:", accuracy)
 
-with open(results_file, "a") as f:  # "a" = append, use "w" to overwrite
-    print("HLS emu MAE:", mae, file=f)
-    print("y_hls min/max:", float(y_hls.min()), float(y_hls.max()), file=f)
-    print("HLS emu accuracy:", accuracy, file=f)
+# with open(results_file, "a") as f:  # "a" = append, use "w" to overwrite
+#     print("HLS emu MAE:", mae, file=f)
+#     print("y_hls min/max:", float(y_hls.min()), float(y_hls.max()), file=f)
+#     print("HLS emu accuracy:", accuracy, file=f)
 
 
 # Save into .dat files for C/RTL co-simulation
@@ -145,21 +145,21 @@ import os, numpy as np
 # N = 400  # how many samples to test
 
 # X_test must be the *raw* features your model expects (same ones you use for emu).
-Xc = np.ascontiguousarray(X_scaled, dtype=np.float32)
-y_ref = model.predict(Xc, verbose=1).reshape(-1)  # same Keras model you converted
-y_ref_prediction = (y_ref > 0.5).astype(int).flatten()  # convert to 0 or 1
+# Xc = np.ascontiguousarray(X_scaled, dtype=np.float32)
+# y_ref = model.predict(Xc, verbose=1).reshape(-1)  # same Keras model you converted
+# y_ref_prediction = (y_ref > 0.5).astype(int).flatten()  # convert to 0 or 1
 
-tb_dir1 = os.path.join("hls_project", "tb_data")  # OUTDIR_NO_SPACES is your hls4ml_prj folder
+# tb_dir1 = os.path.join("hls_project", "tb_data")  # OUTDIR_NO_SPACES is your hls4ml_prj folder
 
-tb_dir2 = os.path.join("self_check", "tb_data_2015")  # OUTDIR_NO_SPACES is your hls4ml_prj folder
-os.makedirs(tb_dir1, exist_ok=True)
-os.makedirs(tb_dir2, exist_ok=True)
+# tb_dir2 = os.path.join("self_check", "tb_data_2015")  # OUTDIR_NO_SPACES is your hls4ml_prj folder
+# os.makedirs(tb_dir1, exist_ok=True)
+# os.makedirs(tb_dir2, exist_ok=True)
 
-np.savetxt(os.path.join(tb_dir1, "tb_input_features.dat"),  Xc,   fmt="%.10e")
-np.savetxt(os.path.join(tb_dir1, "tb_output_predictions.dat"), y_hls, fmt="%.10e")
+# np.savetxt(os.path.join(tb_dir1, "tb_input_features.dat"),  Xc,   fmt="%.10e")
+# np.savetxt(os.path.join(tb_dir1, "tb_output_predictions.dat"), y_hls, fmt="%.10e")
 
-np.savetxt(os.path.join(tb_dir2, "tb_input_features.dat"),  Xc,   fmt="%.10e")
-np.savetxt(os.path.join(tb_dir2, "tb_output_features.dat"),  y_ref_prediction,   fmt="%.10e")
+# np.savetxt(os.path.join(tb_dir2, "tb_input_features.dat"),  Xc,   fmt="%.10e")
+# np.savetxt(os.path.join(tb_dir2, "tb_output_features.dat"),  y_ref_prediction,   fmt="%.10e")
 
 
-print("Wrote tb_data to:", tb_dir1)
+# print("Wrote tb_data to:", tb_dir1)

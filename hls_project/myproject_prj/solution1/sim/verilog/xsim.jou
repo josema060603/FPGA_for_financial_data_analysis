@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# xsim v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Nov 15 21:59:16 2025
+# Process ID: 3384
+# Current directory: C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/myproject/xsim_script.tcl}
+# Log file: C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/xsim.log
+# Journal file: C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog\xsim.jou
+# Running On: MSI, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 10, Host memory: 16870 MB
+#-----------------------------------------------------------
+source xsim.dir/myproject/xsim_script.tcl
+open_wave_config myproject_dataflow_ana.wcfg
+source myproject.tcl

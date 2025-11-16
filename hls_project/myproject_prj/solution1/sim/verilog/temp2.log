@@ -1,0 +1,607 @@
+
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\sim\verilog>set PATH= 
+
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\sim\verilog>call C:/Xilinx/Vivado/2023.1/bin/xelab xil_defaultlib.apatb_myproject_top glbl -Oenable_linking_all_libraries  -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_15 -L floating_point_v7_0_20 --lib "ieee_proposed=./ieee_proposed" -s myproject -debug all 
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_myproject_top glbl -Oenable_linking_all_libraries -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_15 -L floating_point_v7_0_20 --lib ieee_proposed=./ieee_proposed -s myproject -debug all 
+Multi-threading is on. Using 14 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_myproject_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config4_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config4_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config6_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config6_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config8_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config8_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_dense_latency_ap_fixed_32_16_5_3_0_ap_fixed_32_18_5_3_0_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_latency_ap_fixed_32_16_5_3_0_ap_fixed_32_18_5_3_0_config2_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_mul_16s_14s_29_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_16s_14s_29_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_mul_16s_14s_30_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_16s_14s_30_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_mul_16s_15s_30_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_16s_15s_30_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_mul_32s_14s_45_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_32s_14s_45_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_relu_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_relu_config3_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_relu_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_relu_config3_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_relu_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_relu_config5_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_relu_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_relu_config5_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_relu_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_relu_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_sigmoid_config9_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_sigmoid_config9_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject_sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_sigmoid_config9_s_sigmoid_tabkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_sigmoid_config9_s_sigmoid_tabkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.myproject_mul_32s_14s_45_1_1(NUM...
+Compiling module xil_defaultlib.myproject_dense_latency_ap_fixed...
+Compiling module xil_defaultlib.myproject_relu_ap_fixed_32_18_5_...
+Compiling module xil_defaultlib.myproject_mul_16s_14s_29_1_1(NUM...
+Compiling module xil_defaultlib.myproject_mul_16s_14s_30_1_1(NUM...
+Compiling module xil_defaultlib.myproject_mul_16s_15s_30_1_1(NUM...
+Compiling module xil_defaultlib.myproject_dense_latency_ap_fixed...
+Compiling module xil_defaultlib.myproject_relu_ap_fixed_32_18_5_...
+Compiling module xil_defaultlib.myproject_dense_latency_ap_fixed...
+Compiling module xil_defaultlib.myproject_relu_ap_fixed_32_18_5_...
+Compiling module xil_defaultlib.myproject_dense_latency_ap_fixed...
+Compiling module xil_defaultlib.myproject_sigmoid_ap_fixed_32_18...
+Compiling module xil_defaultlib.myproject_sigmoid_ap_fixed_32_18...
+Compiling module xil_defaultlib.myproject
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_myproject_top
+Compiling module work.glbl
+Built simulation snapshot myproject
+ECHO is off.
+ECHO is off.
+
+****** xsim v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/myproject/xsim_script.tcl
+# xsim {myproject} -view {{myproject_dataflow_ana.wcfg}} -tclbatch {myproject.tcl} -protoinst {myproject.protoinst}
+INFO: [Wavedata 42-565] Reading protoinst file myproject.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject//AESL_inst_myproject_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config4_s_fu_131/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config4_s_fu_131_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config6_s_fu_235/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config6_s_fu_235_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config8_s_fu_291/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_32_18_5_3_0_config8_s_fu_291_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_dense_latency_ap_fixed_32_16_5_3_0_ap_fixed_32_18_5_3_0_config2_s_fu_57/grp_dense_latency_ap_fixed_32_16_5_3_0_ap_fixed_32_18_5_3_0_config2_s_fu_57_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_sigmoid_config9_s_fu_311/grp_sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_16_6_5_3_0_sigmoid_config9_s_fu_311_activity
+Time resolution is 1 ps
+open_wave_config myproject_dataflow_ana.wcfg
+source myproject.tcl
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set return_group [add_wave_group return(wire) -into $coutputgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer9_out_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer9_out -into $return_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set return_group [add_wave_group return(wire) -into $cinputgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/hidden_1_input_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/hidden_1_input -into $return_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_start -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_done -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_idle -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_myproject_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_hidden_1_input -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer9_out -into $tb_portdepth_group -radix hex
+## set tbcoutputgroup [add_wave_group "C Outputs" -into $testbenchgroup]
+## set tb_return_group [add_wave_group return(wire) -into $tbcoutputgroup]
+## add_wave /apatb_myproject_top/layer9_out_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer9_out -into $tb_return_group -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_return_group [add_wave_group return(wire) -into $tbcinputgroup]
+## add_wave /apatb_myproject_top/hidden_1_input_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/hidden_1_input -into $tb_return_group -radix hex
+## save_wave_config myproject.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 464 [0.00%] @ "350000"
+// RTL Simulation : 1 / 464 [70.48%] @ "11050000"
+// RTL Simulation : 2 / 464 [70.48%] @ "14150000"
+// RTL Simulation : 3 / 464 [70.48%] @ "17250000"
+// RTL Simulation : 4 / 464 [70.48%] @ "20350000"
+// RTL Simulation : 5 / 464 [70.48%] @ "23450000"
+// RTL Simulation : 6 / 464 [70.48%] @ "26550000"
+// RTL Simulation : 7 / 464 [70.48%] @ "29650000"
+// RTL Simulation : 8 / 464 [70.48%] @ "32750000"
+// RTL Simulation : 9 / 464 [70.48%] @ "35850000"
+// RTL Simulation : 10 / 464 [70.48%] @ "38950000"
+// RTL Simulation : 11 / 464 [70.48%] @ "42050000"
+// RTL Simulation : 12 / 464 [70.48%] @ "45150000"
+// RTL Simulation : 13 / 464 [70.48%] @ "48250000"
+// RTL Simulation : 14 / 464 [70.48%] @ "51350000"
+// RTL Simulation : 15 / 464 [70.48%] @ "54450000"
+// RTL Simulation : 16 / 464 [70.48%] @ "57550000"
+// RTL Simulation : 17 / 464 [70.48%] @ "60650000"
+// RTL Simulation : 18 / 464 [70.48%] @ "63750000"
+// RTL Simulation : 19 / 464 [70.48%] @ "66850000"
+// RTL Simulation : 20 / 464 [70.48%] @ "69950000"
+// RTL Simulation : 21 / 464 [70.48%] @ "73050000"
+// RTL Simulation : 22 / 464 [70.48%] @ "76150000"
+// RTL Simulation : 23 / 464 [70.48%] @ "79250000"
+// RTL Simulation : 24 / 464 [70.48%] @ "82350000"
+// RTL Simulation : 25 / 464 [70.48%] @ "85450000"
+// RTL Simulation : 26 / 464 [70.48%] @ "88550000"
+// RTL Simulation : 27 / 464 [70.48%] @ "91650000"
+// RTL Simulation : 28 / 464 [70.48%] @ "94750000"
+// RTL Simulation : 29 / 464 [70.48%] @ "97850000"
+// RTL Simulation : 30 / 464 [70.48%] @ "100950000"
+// RTL Simulation : 31 / 464 [70.48%] @ "104050000"
+// RTL Simulation : 32 / 464 [70.48%] @ "107150000"
+// RTL Simulation : 33 / 464 [70.48%] @ "110250000"
+// RTL Simulation : 34 / 464 [70.48%] @ "113350000"
+// RTL Simulation : 35 / 464 [70.48%] @ "116450000"
+// RTL Simulation : 36 / 464 [70.48%] @ "119550000"
+// RTL Simulation : 37 / 464 [70.48%] @ "122650000"
+// RTL Simulation : 38 / 464 [70.48%] @ "125750000"
+// RTL Simulation : 39 / 464 [70.48%] @ "128850000"
+// RTL Simulation : 40 / 464 [70.48%] @ "131950000"
+// RTL Simulation : 41 / 464 [70.48%] @ "135050000"
+// RTL Simulation : 42 / 464 [70.48%] @ "138150000"
+// RTL Simulation : 43 / 464 [70.48%] @ "141250000"
+// RTL Simulation : 44 / 464 [70.48%] @ "144350000"
+// RTL Simulation : 45 / 464 [70.48%] @ "147450000"
+// RTL Simulation : 46 / 464 [70.48%] @ "150550000"
+// RTL Simulation : 47 / 464 [70.48%] @ "153650000"
+// RTL Simulation : 48 / 464 [70.48%] @ "156750000"
+// RTL Simulation : 49 / 464 [70.48%] @ "159850000"
+// RTL Simulation : 50 / 464 [70.48%] @ "162950000"
+// RTL Simulation : 51 / 464 [70.48%] @ "166050000"
+// RTL Simulation : 52 / 464 [70.48%] @ "169150000"
+// RTL Simulation : 53 / 464 [70.48%] @ "172250000"
+// RTL Simulation : 54 / 464 [70.48%] @ "175350000"
+// RTL Simulation : 55 / 464 [70.48%] @ "178450000"
+// RTL Simulation : 56 / 464 [70.48%] @ "181550000"
+// RTL Simulation : 57 / 464 [70.48%] @ "184650000"
+// RTL Simulation : 58 / 464 [70.48%] @ "187750000"
+// RTL Simulation : 59 / 464 [70.48%] @ "190850000"
+// RTL Simulation : 60 / 464 [70.48%] @ "193950000"
+// RTL Simulation : 61 / 464 [70.48%] @ "197050000"
+// RTL Simulation : 62 / 464 [70.48%] @ "200150000"
+// RTL Simulation : 63 / 464 [70.48%] @ "203250000"
+// RTL Simulation : 64 / 464 [70.48%] @ "206350000"
+// RTL Simulation : 65 / 464 [70.48%] @ "209450000"
+// RTL Simulation : 66 / 464 [70.48%] @ "212550000"
+// RTL Simulation : 67 / 464 [70.48%] @ "215650000"
+// RTL Simulation : 68 / 464 [70.48%] @ "218750000"
+// RTL Simulation : 69 / 464 [70.48%] @ "221850000"
+// RTL Simulation : 70 / 464 [70.48%] @ "224950000"
+// RTL Simulation : 71 / 464 [70.48%] @ "228050000"
+// RTL Simulation : 72 / 464 [70.48%] @ "231150000"
+// RTL Simulation : 73 / 464 [70.48%] @ "234250000"
+// RTL Simulation : 74 / 464 [70.48%] @ "237350000"
+// RTL Simulation : 75 / 464 [70.48%] @ "240450000"
+// RTL Simulation : 76 / 464 [70.48%] @ "243550000"
+// RTL Simulation : 77 / 464 [70.48%] @ "246650000"
+// RTL Simulation : 78 / 464 [70.48%] @ "249750000"
+// RTL Simulation : 79 / 464 [70.48%] @ "252850000"
+// RTL Simulation : 80 / 464 [70.48%] @ "255950000"
+// RTL Simulation : 81 / 464 [70.48%] @ "259050000"
+// RTL Simulation : 82 / 464 [70.48%] @ "262150000"
+// RTL Simulation : 83 / 464 [70.48%] @ "265250000"
+// RTL Simulation : 84 / 464 [70.48%] @ "268350000"
+// RTL Simulation : 85 / 464 [70.48%] @ "271450000"
+// RTL Simulation : 86 / 464 [70.48%] @ "274550000"
+// RTL Simulation : 87 / 464 [70.48%] @ "277650000"
+// RTL Simulation : 88 / 464 [70.48%] @ "280750000"
+// RTL Simulation : 89 / 464 [70.48%] @ "283850000"
+// RTL Simulation : 90 / 464 [70.48%] @ "286950000"
+// RTL Simulation : 91 / 464 [70.48%] @ "290050000"
+// RTL Simulation : 92 / 464 [70.48%] @ "293150000"
+// RTL Simulation : 93 / 464 [70.48%] @ "296250000"
+// RTL Simulation : 94 / 464 [70.48%] @ "299350000"
+// RTL Simulation : 95 / 464 [70.48%] @ "302450000"
+// RTL Simulation : 96 / 464 [70.48%] @ "305550000"
+// RTL Simulation : 97 / 464 [70.48%] @ "308650000"
+// RTL Simulation : 98 / 464 [70.48%] @ "311750000"
+// RTL Simulation : 99 / 464 [70.48%] @ "314850000"
+// RTL Simulation : 100 / 464 [70.48%] @ "317950000"
+// RTL Simulation : 101 / 464 [70.48%] @ "321050000"
+// RTL Simulation : 102 / 464 [70.48%] @ "324150000"
+// RTL Simulation : 103 / 464 [70.48%] @ "327250000"
+// RTL Simulation : 104 / 464 [70.48%] @ "330350000"
+// RTL Simulation : 105 / 464 [70.48%] @ "333450000"
+// RTL Simulation : 106 / 464 [70.48%] @ "336550000"
+// RTL Simulation : 107 / 464 [70.48%] @ "339650000"
+// RTL Simulation : 108 / 464 [70.48%] @ "342750000"
+// RTL Simulation : 109 / 464 [70.48%] @ "345850000"
+// RTL Simulation : 110 / 464 [70.48%] @ "348950000"
+// RTL Simulation : 111 / 464 [70.48%] @ "352050000"
+// RTL Simulation : 112 / 464 [70.48%] @ "355150000"
+// RTL Simulation : 113 / 464 [70.48%] @ "358250000"
+// RTL Simulation : 114 / 464 [70.48%] @ "361350000"
+// RTL Simulation : 115 / 464 [70.48%] @ "364450000"
+// RTL Simulation : 116 / 464 [70.48%] @ "367550000"
+// RTL Simulation : 117 / 464 [70.48%] @ "370650000"
+// RTL Simulation : 118 / 464 [70.48%] @ "373750000"
+// RTL Simulation : 119 / 464 [70.48%] @ "376850000"
+// RTL Simulation : 120 / 464 [70.48%] @ "379950000"
+// RTL Simulation : 121 / 464 [70.48%] @ "383050000"
+// RTL Simulation : 122 / 464 [70.48%] @ "386150000"
+// RTL Simulation : 123 / 464 [70.48%] @ "389250000"
+// RTL Simulation : 124 / 464 [70.48%] @ "392350000"
+// RTL Simulation : 125 / 464 [70.48%] @ "395450000"
+// RTL Simulation : 126 / 464 [70.48%] @ "398550000"
+// RTL Simulation : 127 / 464 [70.48%] @ "401650000"
+// RTL Simulation : 128 / 464 [70.48%] @ "404750000"
+// RTL Simulation : 129 / 464 [70.48%] @ "407850000"
+// RTL Simulation : 130 / 464 [70.48%] @ "410950000"
+// RTL Simulation : 131 / 464 [70.48%] @ "414050000"
+// RTL Simulation : 132 / 464 [70.48%] @ "417150000"
+// RTL Simulation : 133 / 464 [70.48%] @ "420250000"
+// RTL Simulation : 134 / 464 [70.48%] @ "423350000"
+// RTL Simulation : 135 / 464 [70.48%] @ "426450000"
+// RTL Simulation : 136 / 464 [70.48%] @ "429550000"
+// RTL Simulation : 137 / 464 [70.48%] @ "432650000"
+// RTL Simulation : 138 / 464 [70.48%] @ "435750000"
+// RTL Simulation : 139 / 464 [70.48%] @ "438850000"
+// RTL Simulation : 140 / 464 [70.48%] @ "441950000"
+// RTL Simulation : 141 / 464 [70.48%] @ "445050000"
+// RTL Simulation : 142 / 464 [70.48%] @ "448150000"
+// RTL Simulation : 143 / 464 [70.48%] @ "451250000"
+// RTL Simulation : 144 / 464 [70.48%] @ "454350000"
+// RTL Simulation : 145 / 464 [70.48%] @ "457450000"
+// RTL Simulation : 146 / 464 [70.48%] @ "460550000"
+// RTL Simulation : 147 / 464 [70.48%] @ "463650000"
+// RTL Simulation : 148 / 464 [70.48%] @ "466750000"
+// RTL Simulation : 149 / 464 [70.48%] @ "469850000"
+// RTL Simulation : 150 / 464 [70.48%] @ "472950000"
+// RTL Simulation : 151 / 464 [70.48%] @ "476050000"
+// RTL Simulation : 152 / 464 [70.48%] @ "479150000"
+// RTL Simulation : 153 / 464 [70.48%] @ "482250000"
+// RTL Simulation : 154 / 464 [70.48%] @ "485350000"
+// RTL Simulation : 155 / 464 [70.48%] @ "488450000"
+// RTL Simulation : 156 / 464 [70.48%] @ "491550000"
+// RTL Simulation : 157 / 464 [70.48%] @ "494650000"
+// RTL Simulation : 158 / 464 [70.48%] @ "497750000"
+// RTL Simulation : 159 / 464 [70.48%] @ "500850000"
+// RTL Simulation : 160 / 464 [70.48%] @ "503950000"
+// RTL Simulation : 161 / 464 [70.48%] @ "507050000"
+// RTL Simulation : 162 / 464 [70.48%] @ "510150000"
+// RTL Simulation : 163 / 464 [70.48%] @ "513250000"
+// RTL Simulation : 164 / 464 [70.48%] @ "516350000"
+// RTL Simulation : 165 / 464 [70.48%] @ "519450000"
+// RTL Simulation : 166 / 464 [70.48%] @ "522550000"
+// RTL Simulation : 167 / 464 [70.48%] @ "525650000"
+// RTL Simulation : 168 / 464 [70.48%] @ "528750000"
+// RTL Simulation : 169 / 464 [70.48%] @ "531850000"
+// RTL Simulation : 170 / 464 [70.48%] @ "534950000"
+// RTL Simulation : 171 / 464 [70.48%] @ "538050000"
+// RTL Simulation : 172 / 464 [70.48%] @ "541150000"
+// RTL Simulation : 173 / 464 [70.48%] @ "544250000"
+// RTL Simulation : 174 / 464 [70.48%] @ "547350000"
+// RTL Simulation : 175 / 464 [70.48%] @ "550450000"
+// RTL Simulation : 176 / 464 [70.48%] @ "553550000"
+// RTL Simulation : 177 / 464 [70.48%] @ "556650000"
+// RTL Simulation : 178 / 464 [70.48%] @ "559750000"
+// RTL Simulation : 179 / 464 [70.48%] @ "562850000"
+// RTL Simulation : 180 / 464 [70.48%] @ "565950000"
+// RTL Simulation : 181 / 464 [70.48%] @ "569050000"
+// RTL Simulation : 182 / 464 [70.48%] @ "572150000"
+// RTL Simulation : 183 / 464 [70.48%] @ "575250000"
+// RTL Simulation : 184 / 464 [70.48%] @ "578350000"
+// RTL Simulation : 185 / 464 [70.48%] @ "581450000"
+// RTL Simulation : 186 / 464 [70.48%] @ "584550000"
+// RTL Simulation : 187 / 464 [70.48%] @ "587650000"
+// RTL Simulation : 188 / 464 [70.48%] @ "590750000"
+// RTL Simulation : 189 / 464 [70.48%] @ "593850000"
+// RTL Simulation : 190 / 464 [70.48%] @ "596950000"
+// RTL Simulation : 191 / 464 [70.48%] @ "600050000"
+// RTL Simulation : 192 / 464 [70.48%] @ "603150000"
+// RTL Simulation : 193 / 464 [70.48%] @ "606250000"
+// RTL Simulation : 194 / 464 [70.48%] @ "609350000"
+// RTL Simulation : 195 / 464 [70.48%] @ "612450000"
+// RTL Simulation : 196 / 464 [70.48%] @ "615550000"
+// RTL Simulation : 197 / 464 [70.48%] @ "618650000"
+// RTL Simulation : 198 / 464 [70.48%] @ "621750000"
+// RTL Simulation : 199 / 464 [70.48%] @ "624850000"
+// RTL Simulation : 200 / 464 [70.48%] @ "627950000"
+// RTL Simulation : 201 / 464 [70.48%] @ "631050000"
+// RTL Simulation : 202 / 464 [70.48%] @ "634150000"
+// RTL Simulation : 203 / 464 [70.48%] @ "637250000"
+// RTL Simulation : 204 / 464 [70.48%] @ "640350000"
+// RTL Simulation : 205 / 464 [70.48%] @ "643450000"
+// RTL Simulation : 206 / 464 [70.48%] @ "646550000"
+// RTL Simulation : 207 / 464 [70.48%] @ "649650000"
+// RTL Simulation : 208 / 464 [70.48%] @ "652750000"
+// RTL Simulation : 209 / 464 [70.48%] @ "655850000"
+// RTL Simulation : 210 / 464 [70.48%] @ "658950000"
+// RTL Simulation : 211 / 464 [70.48%] @ "662050000"
+// RTL Simulation : 212 / 464 [70.48%] @ "665150000"
+// RTL Simulation : 213 / 464 [70.48%] @ "668250000"
+// RTL Simulation : 214 / 464 [70.48%] @ "671350000"
+// RTL Simulation : 215 / 464 [70.48%] @ "674450000"
+// RTL Simulation : 216 / 464 [70.48%] @ "677550000"
+// RTL Simulation : 217 / 464 [70.48%] @ "680650000"
+// RTL Simulation : 218 / 464 [70.48%] @ "683750000"
+// RTL Simulation : 219 / 464 [70.48%] @ "686850000"
+// RTL Simulation : 220 / 464 [70.48%] @ "689950000"
+// RTL Simulation : 221 / 464 [70.48%] @ "693050000"
+// RTL Simulation : 222 / 464 [70.48%] @ "696150000"
+// RTL Simulation : 223 / 464 [70.48%] @ "699250000"
+// RTL Simulation : 224 / 464 [70.48%] @ "702350000"
+// RTL Simulation : 225 / 464 [70.48%] @ "705450000"
+// RTL Simulation : 226 / 464 [70.48%] @ "708550000"
+// RTL Simulation : 227 / 464 [70.48%] @ "711650000"
+// RTL Simulation : 228 / 464 [70.48%] @ "714750000"
+// RTL Simulation : 229 / 464 [70.48%] @ "717850000"
+// RTL Simulation : 230 / 464 [70.48%] @ "720950000"
+// RTL Simulation : 231 / 464 [70.48%] @ "724050000"
+// RTL Simulation : 232 / 464 [70.48%] @ "727150000"
+// RTL Simulation : 233 / 464 [70.48%] @ "730250000"
+// RTL Simulation : 234 / 464 [70.48%] @ "733350000"
+// RTL Simulation : 235 / 464 [70.48%] @ "736450000"
+// RTL Simulation : 236 / 464 [70.48%] @ "739550000"
+// RTL Simulation : 237 / 464 [70.48%] @ "742650000"
+// RTL Simulation : 238 / 464 [70.48%] @ "745750000"
+// RTL Simulation : 239 / 464 [70.48%] @ "748850000"
+// RTL Simulation : 240 / 464 [70.48%] @ "751950000"
+// RTL Simulation : 241 / 464 [70.48%] @ "755050000"
+// RTL Simulation : 242 / 464 [70.48%] @ "758150000"
+// RTL Simulation : 243 / 464 [70.48%] @ "761250000"
+// RTL Simulation : 244 / 464 [70.48%] @ "764350000"
+// RTL Simulation : 245 / 464 [70.48%] @ "767450000"
+// RTL Simulation : 246 / 464 [70.48%] @ "770550000"
+// RTL Simulation : 247 / 464 [70.48%] @ "773650000"
+// RTL Simulation : 248 / 464 [70.48%] @ "776750000"
+// RTL Simulation : 249 / 464 [70.48%] @ "779850000"
+// RTL Simulation : 250 / 464 [70.48%] @ "782950000"
+// RTL Simulation : 251 / 464 [70.48%] @ "786050000"
+// RTL Simulation : 252 / 464 [70.48%] @ "789150000"
+// RTL Simulation : 253 / 464 [70.48%] @ "792250000"
+// RTL Simulation : 254 / 464 [70.48%] @ "795350000"
+// RTL Simulation : 255 / 464 [70.48%] @ "798450000"
+// RTL Simulation : 256 / 464 [70.48%] @ "801550000"
+// RTL Simulation : 257 / 464 [70.48%] @ "804650000"
+// RTL Simulation : 258 / 464 [70.48%] @ "807750000"
+// RTL Simulation : 259 / 464 [70.48%] @ "810850000"
+// RTL Simulation : 260 / 464 [70.48%] @ "813950000"
+// RTL Simulation : 261 / 464 [70.48%] @ "817050000"
+// RTL Simulation : 262 / 464 [70.48%] @ "820150000"
+// RTL Simulation : 263 / 464 [70.48%] @ "823250000"
+// RTL Simulation : 264 / 464 [70.48%] @ "826350000"
+// RTL Simulation : 265 / 464 [70.48%] @ "829450000"
+// RTL Simulation : 266 / 464 [70.48%] @ "832550000"
+// RTL Simulation : 267 / 464 [70.48%] @ "835650000"
+// RTL Simulation : 268 / 464 [70.48%] @ "838750000"
+// RTL Simulation : 269 / 464 [70.48%] @ "841850000"
+// RTL Simulation : 270 / 464 [70.48%] @ "844950000"
+// RTL Simulation : 271 / 464 [70.48%] @ "848050000"
+// RTL Simulation : 272 / 464 [70.48%] @ "851150000"
+// RTL Simulation : 273 / 464 [70.48%] @ "854250000"
+// RTL Simulation : 274 / 464 [70.48%] @ "857350000"
+// RTL Simulation : 275 / 464 [70.48%] @ "860450000"
+// RTL Simulation : 276 / 464 [70.48%] @ "863550000"
+// RTL Simulation : 277 / 464 [70.48%] @ "866650000"
+// RTL Simulation : 278 / 464 [70.48%] @ "869750000"
+// RTL Simulation : 279 / 464 [70.48%] @ "872850000"
+// RTL Simulation : 280 / 464 [70.48%] @ "875950000"
+// RTL Simulation : 281 / 464 [70.48%] @ "879050000"
+// RTL Simulation : 282 / 464 [70.48%] @ "882150000"
+// RTL Simulation : 283 / 464 [70.48%] @ "885250000"
+// RTL Simulation : 284 / 464 [70.48%] @ "888350000"
+// RTL Simulation : 285 / 464 [70.48%] @ "891450000"
+// RTL Simulation : 286 / 464 [70.48%] @ "894550000"
+// RTL Simulation : 287 / 464 [70.48%] @ "897650000"
+// RTL Simulation : 288 / 464 [70.48%] @ "900750000"
+// RTL Simulation : 289 / 464 [70.48%] @ "903850000"
+// RTL Simulation : 290 / 464 [70.48%] @ "906950000"
+// RTL Simulation : 291 / 464 [70.48%] @ "910050000"
+// RTL Simulation : 292 / 464 [70.48%] @ "913150000"
+// RTL Simulation : 293 / 464 [70.48%] @ "916250000"
+// RTL Simulation : 294 / 464 [70.48%] @ "919350000"
+// RTL Simulation : 295 / 464 [70.48%] @ "922450000"
+// RTL Simulation : 296 / 464 [70.48%] @ "925550000"
+// RTL Simulation : 297 / 464 [70.48%] @ "928650000"
+// RTL Simulation : 298 / 464 [70.48%] @ "931750000"
+// RTL Simulation : 299 / 464 [70.48%] @ "934850000"
+// RTL Simulation : 300 / 464 [70.48%] @ "937950000"
+// RTL Simulation : 301 / 464 [70.48%] @ "941050000"
+// RTL Simulation : 302 / 464 [70.48%] @ "944150000"
+// RTL Simulation : 303 / 464 [70.48%] @ "947250000"
+// RTL Simulation : 304 / 464 [70.48%] @ "950350000"
+// RTL Simulation : 305 / 464 [70.48%] @ "953450000"
+// RTL Simulation : 306 / 464 [70.48%] @ "956550000"
+// RTL Simulation : 307 / 464 [70.48%] @ "959650000"
+// RTL Simulation : 308 / 464 [70.48%] @ "962750000"
+// RTL Simulation : 309 / 464 [70.48%] @ "965850000"
+// RTL Simulation : 310 / 464 [70.48%] @ "968950000"
+// RTL Simulation : 311 / 464 [70.48%] @ "972050000"
+// RTL Simulation : 312 / 464 [70.48%] @ "975150000"
+// RTL Simulation : 313 / 464 [70.48%] @ "978250000"
+// RTL Simulation : 314 / 464 [70.48%] @ "981350000"
+// RTL Simulation : 315 / 464 [70.48%] @ "984450000"
+// RTL Simulation : 316 / 464 [70.48%] @ "987550000"
+// RTL Simulation : 317 / 464 [70.48%] @ "990650000"
+// RTL Simulation : 318 / 464 [70.48%] @ "993750000"
+// RTL Simulation : 319 / 464 [70.48%] @ "996850000"
+// RTL Simulation : 320 / 464 [70.48%] @ "999950000"
+// RTL Simulation : 321 / 464 [70.48%] @ "1003050000"
+// RTL Simulation : 322 / 464 [70.48%] @ "1006150000"
+// RTL Simulation : 323 / 464 [70.48%] @ "1009250000"
+// RTL Simulation : 324 / 464 [70.48%] @ "1012350000"
+// RTL Simulation : 325 / 464 [70.48%] @ "1015450000"
+// RTL Simulation : 326 / 464 [70.48%] @ "1018550000"
+// RTL Simulation : 327 / 464 [70.48%] @ "1021650000"
+// RTL Simulation : 328 / 464 [70.48%] @ "1024750000"
+// RTL Simulation : 329 / 464 [70.48%] @ "1027850000"
+// RTL Simulation : 330 / 464 [70.48%] @ "1030950000"
+// RTL Simulation : 331 / 464 [70.48%] @ "1034050000"
+// RTL Simulation : 332 / 464 [70.48%] @ "1037150000"
+// RTL Simulation : 333 / 464 [70.48%] @ "1040250000"
+// RTL Simulation : 334 / 464 [70.48%] @ "1043350000"
+// RTL Simulation : 335 / 464 [70.48%] @ "1046450000"
+// RTL Simulation : 336 / 464 [70.48%] @ "1049550000"
+// RTL Simulation : 337 / 464 [70.48%] @ "1052650000"
+// RTL Simulation : 338 / 464 [70.48%] @ "1055750000"
+// RTL Simulation : 339 / 464 [70.48%] @ "1058850000"
+// RTL Simulation : 340 / 464 [70.48%] @ "1061950000"
+// RTL Simulation : 341 / 464 [70.48%] @ "1065050000"
+// RTL Simulation : 342 / 464 [70.48%] @ "1068150000"
+// RTL Simulation : 343 / 464 [70.48%] @ "1071250000"
+// RTL Simulation : 344 / 464 [70.48%] @ "1074350000"
+// RTL Simulation : 345 / 464 [70.48%] @ "1077450000"
+// RTL Simulation : 346 / 464 [70.48%] @ "1080550000"
+// RTL Simulation : 347 / 464 [70.48%] @ "1083650000"
+// RTL Simulation : 348 / 464 [70.48%] @ "1086750000"
+// RTL Simulation : 349 / 464 [70.48%] @ "1089850000"
+// RTL Simulation : 350 / 464 [70.48%] @ "1092950000"
+// RTL Simulation : 351 / 464 [70.48%] @ "1096050000"
+// RTL Simulation : 352 / 464 [70.48%] @ "1099150000"
+// RTL Simulation : 353 / 464 [70.48%] @ "1102250000"
+// RTL Simulation : 354 / 464 [70.48%] @ "1105350000"
+// RTL Simulation : 355 / 464 [70.48%] @ "1108450000"
+// RTL Simulation : 356 / 464 [70.48%] @ "1111550000"
+// RTL Simulation : 357 / 464 [70.48%] @ "1114650000"
+// RTL Simulation : 358 / 464 [70.48%] @ "1117750000"
+// RTL Simulation : 359 / 464 [70.48%] @ "1120850000"
+// RTL Simulation : 360 / 464 [70.48%] @ "1123950000"
+// RTL Simulation : 361 / 464 [70.48%] @ "1127050000"
+// RTL Simulation : 362 / 464 [70.48%] @ "1130150000"
+// RTL Simulation : 363 / 464 [70.48%] @ "1133250000"
+// RTL Simulation : 364 / 464 [70.48%] @ "1136350000"
+// RTL Simulation : 365 / 464 [70.48%] @ "1139450000"
+// RTL Simulation : 366 / 464 [70.48%] @ "1142550000"
+// RTL Simulation : 367 / 464 [70.48%] @ "1145650000"
+// RTL Simulation : 368 / 464 [70.48%] @ "1148750000"
+// RTL Simulation : 369 / 464 [70.48%] @ "1151850000"
+// RTL Simulation : 370 / 464 [70.48%] @ "1154950000"
+// RTL Simulation : 371 / 464 [70.48%] @ "1158050000"
+// RTL Simulation : 372 / 464 [70.48%] @ "1161150000"
+// RTL Simulation : 373 / 464 [70.48%] @ "1164250000"
+// RTL Simulation : 374 / 464 [70.48%] @ "1167350000"
+// RTL Simulation : 375 / 464 [70.48%] @ "1170450000"
+// RTL Simulation : 376 / 464 [70.48%] @ "1173550000"
+// RTL Simulation : 377 / 464 [70.48%] @ "1176650000"
+// RTL Simulation : 378 / 464 [70.48%] @ "1179750000"
+// RTL Simulation : 379 / 464 [70.48%] @ "1182850000"
+// RTL Simulation : 380 / 464 [70.48%] @ "1185950000"
+// RTL Simulation : 381 / 464 [70.48%] @ "1189050000"
+// RTL Simulation : 382 / 464 [70.48%] @ "1192150000"
+// RTL Simulation : 383 / 464 [70.48%] @ "1195250000"
+// RTL Simulation : 384 / 464 [70.48%] @ "1198350000"
+// RTL Simulation : 385 / 464 [70.48%] @ "1201450000"
+// RTL Simulation : 386 / 464 [70.48%] @ "1204550000"
+// RTL Simulation : 387 / 464 [70.48%] @ "1207650000"
+// RTL Simulation : 388 / 464 [70.48%] @ "1210750000"
+// RTL Simulation : 389 / 464 [70.48%] @ "1213850000"
+// RTL Simulation : 390 / 464 [70.48%] @ "1216950000"
+// RTL Simulation : 391 / 464 [70.48%] @ "1220050000"
+// RTL Simulation : 392 / 464 [70.48%] @ "1223150000"
+// RTL Simulation : 393 / 464 [70.48%] @ "1226250000"
+// RTL Simulation : 394 / 464 [70.48%] @ "1229350000"
+// RTL Simulation : 395 / 464 [70.48%] @ "1232450000"
+// RTL Simulation : 396 / 464 [70.48%] @ "1235550000"
+// RTL Simulation : 397 / 464 [70.48%] @ "1238650000"
+// RTL Simulation : 398 / 464 [70.48%] @ "1241750000"
+// RTL Simulation : 399 / 464 [70.48%] @ "1244850000"
+// RTL Simulation : 400 / 464 [70.48%] @ "1247950000"
+// RTL Simulation : 401 / 464 [70.48%] @ "1251050000"
+// RTL Simulation : 402 / 464 [70.48%] @ "1254150000"
+// RTL Simulation : 403 / 464 [70.48%] @ "1257250000"
+// RTL Simulation : 404 / 464 [70.48%] @ "1260350000"
+// RTL Simulation : 405 / 464 [70.48%] @ "1263450000"
+// RTL Simulation : 406 / 464 [70.48%] @ "1266550000"
+// RTL Simulation : 407 / 464 [70.48%] @ "1269650000"
+// RTL Simulation : 408 / 464 [70.48%] @ "1272750000"
+// RTL Simulation : 409 / 464 [70.48%] @ "1275850000"
+// RTL Simulation : 410 / 464 [70.48%] @ "1278950000"
+// RTL Simulation : 411 / 464 [70.48%] @ "1282050000"
+// RTL Simulation : 412 / 464 [70.48%] @ "1285150000"
+// RTL Simulation : 413 / 464 [70.48%] @ "1288250000"
+// RTL Simulation : 414 / 464 [70.48%] @ "1291350000"
+// RTL Simulation : 415 / 464 [70.48%] @ "1294450000"
+// RTL Simulation : 416 / 464 [70.48%] @ "1297550000"
+// RTL Simulation : 417 / 464 [70.48%] @ "1300650000"
+// RTL Simulation : 418 / 464 [70.48%] @ "1303750000"
+// RTL Simulation : 419 / 464 [70.48%] @ "1306850000"
+// RTL Simulation : 420 / 464 [70.48%] @ "1309950000"
+// RTL Simulation : 421 / 464 [70.48%] @ "1313050000"
+// RTL Simulation : 422 / 464 [70.48%] @ "1316150000"
+// RTL Simulation : 423 / 464 [70.48%] @ "1319250000"
+// RTL Simulation : 424 / 464 [70.48%] @ "1322350000"
+// RTL Simulation : 425 / 464 [70.48%] @ "1325450000"
+// RTL Simulation : 426 / 464 [70.48%] @ "1328550000"
+// RTL Simulation : 427 / 464 [70.48%] @ "1331650000"
+// RTL Simulation : 428 / 464 [70.48%] @ "1334750000"
+// RTL Simulation : 429 / 464 [70.48%] @ "1337850000"
+// RTL Simulation : 430 / 464 [70.48%] @ "1340950000"
+// RTL Simulation : 431 / 464 [70.48%] @ "1344050000"
+// RTL Simulation : 432 / 464 [70.48%] @ "1347150000"
+// RTL Simulation : 433 / 464 [70.48%] @ "1350250000"
+// RTL Simulation : 434 / 464 [70.48%] @ "1353350000"
+// RTL Simulation : 435 / 464 [70.48%] @ "1356450000"
+// RTL Simulation : 436 / 464 [70.48%] @ "1359550000"
+// RTL Simulation : 437 / 464 [70.48%] @ "1362650000"
+// RTL Simulation : 438 / 464 [70.48%] @ "1365750000"
+// RTL Simulation : 439 / 464 [70.48%] @ "1368850000"
+// RTL Simulation : 440 / 464 [70.48%] @ "1371950000"
+// RTL Simulation : 441 / 464 [70.48%] @ "1375050000"
+// RTL Simulation : 442 / 464 [70.48%] @ "1378150000"
+// RTL Simulation : 443 / 464 [70.48%] @ "1381250000"
+// RTL Simulation : 444 / 464 [70.48%] @ "1384350000"
+// RTL Simulation : 445 / 464 [70.48%] @ "1387450000"
+// RTL Simulation : 446 / 464 [70.48%] @ "1390550000"
+// RTL Simulation : 447 / 464 [70.48%] @ "1393650000"
+// RTL Simulation : 448 / 464 [70.48%] @ "1396750000"
+// RTL Simulation : 449 / 464 [70.48%] @ "1399850000"
+// RTL Simulation : 450 / 464 [70.48%] @ "1402950000"
+// RTL Simulation : 451 / 464 [70.48%] @ "1406050000"
+// RTL Simulation : 452 / 464 [70.48%] @ "1409150000"
+// RTL Simulation : 453 / 464 [70.48%] @ "1412250000"
+// RTL Simulation : 454 / 464 [70.48%] @ "1415350000"
+// RTL Simulation : 455 / 464 [70.48%] @ "1418450000"
+// RTL Simulation : 456 / 464 [70.48%] @ "1421550000"
+// RTL Simulation : 457 / 464 [70.48%] @ "1424650000"
+// RTL Simulation : 458 / 464 [70.48%] @ "1427750000"
+// RTL Simulation : 459 / 464 [70.48%] @ "1430850000"
+// RTL Simulation : 460 / 464 [70.48%] @ "1433950000"
+// RTL Simulation : 461 / 464 [70.48%] @ "1437050000"
+// RTL Simulation : 462 / 464 [70.48%] @ "1440150000"
+// RTL Simulation : 463 / 464 [70.48%] @ "1443250000"
+// RTL Simulation : 464 / 464 [100.00%] @ "1446350000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 1446950 ns : File "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 291
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:02:05 . Memory (MB): peak = 253.164 ; gain = 17.605
+## quit
+INFO: xsimkernel Simulation Memory Usage: 42604 KB (Peak: 42604 KB), Simulation CPU Usage: 112577 ms
+INFO: [Common 17-206] Exiting xsim at Sat Nov 15 22:01:26 2025...

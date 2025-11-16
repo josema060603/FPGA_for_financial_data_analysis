@@ -1,0 +1,399 @@
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:25764:7: warning: Added loop label VITIS_LOOP_1213_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1213_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:25764:7: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26738:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26738:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26752:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26752:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26766:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26766:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:28365:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:28365:7: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:30384:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_27_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:30384:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:30397:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+        for (size_t i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_40_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:30397:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51142:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+    for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
+    ^~~
+    VITIS_LOOP_265_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51142:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51152:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+    for (auto i = 0; i < SIZE; i++)
+    ^~~
+    VITIS_LOOP_275_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51152:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51163:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE; i++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51163:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51170:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_293_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51170:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51172:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < res_T::size; j++) {
+        ^~~
+        VITIS_LOOP_295_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51172:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51184:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / data_T::size; i++) {
+    ^~~
+    VITIS_LOOP_307_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51184:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51186:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_309_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51186:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51201:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_324_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51201:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51221:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_344_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51221:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51222:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < ncols; jj++) {
+        ^~~
+        VITIS_LOOP_345_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51222:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51237:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_360_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51237:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51244:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_367_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51244:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51554:5: warning: Added loop label VITIS_LOOP_136_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_136_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51554:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51555:9: warning: Added loop label VITIS_LOOP_137_2:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_137_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51555:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51576:5: warning: Added loop label VITIS_LOOP_158_3:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_158_3: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51576:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51577:9: warning: Added loop label VITIS_LOOP_159_4:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_159_4: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51577:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51695:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_31_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51695:2: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51707:5: warning: Added loop label VITIS_LOOP_43_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_43_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51707:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51721:5: warning: Added loop label VITIS_LOOP_57_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_57_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51721:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51748:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_84_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51748:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51778:5: warning: Added loop label VITIS_LOOP_114_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_114_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51778:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51815:5: warning: Added loop label VITIS_LOOP_151_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_151_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51815:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51826:5: warning: Added loop label VITIS_LOOP_162_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_162_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51826:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51859:5: warning: Added loop label VITIS_LOOP_195_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_195_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51859:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51873:5: warning: Added loop label VITIS_LOOP_209_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_209_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51873:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51907:5: warning: Added loop label VITIS_LOOP_243_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_243_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51907:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51916:5: warning: Added loop label VITIS_LOOP_252_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_252_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51916:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51930:5: warning: Added loop label VITIS_LOOP_266_3:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_266_3: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51930:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51937:5: warning: Added loop label VITIS_LOOP_273_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_273_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51937:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51950:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51950:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51987:5: warning: Added loop label VITIS_LOOP_323_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_323_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51987:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51992:5: warning: Added loop label VITIS_LOOP_328_2:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_328_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51992:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51993:9: warning: Added loop label VITIS_LOOP_329_3:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < CONFIG_T::n_in; jj++) {
+        ^~~
+        VITIS_LOOP_329_3: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51993:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52010:5: warning: Added loop label VITIS_LOOP_346_4:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_346_4: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52010:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52023:5: warning: Added loop label VITIS_LOOP_359_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_359_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52023:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52031:5: warning: Added loop label VITIS_LOOP_367_2:   [xilinx-label-all-loops]
+    for (int i = 1; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_367_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52031:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52066:5: warning: Added loop label VITIS_LOOP_402_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_402_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52066:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52096:5: warning: Added loop label VITIS_LOOP_432_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_432_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52096:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52123:2: warning: Added loop label VITIS_LOOP_459_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_459_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52123:2: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52137:2: warning: Added loop label VITIS_LOOP_473_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_473_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52137:2: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52153:5: warning: Added loop label VITIS_LOOP_489_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_489_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52153:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52171:5: warning: Added loop label VITIS_LOOP_507_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_507_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52171:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52188:5: warning: Added loop label VITIS_LOOP_524_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_524_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52188:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52205:5: warning: Added loop label VITIS_LOOP_541_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_541_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52205:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52235:5: warning: Added loop label VITIS_LOOP_571_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_571_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52235:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52254:5: warning: Added loop label VITIS_LOOP_590_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_590_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52254:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52284:5: warning: Added loop label VITIS_LOOP_620_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_620_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52284:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52303:5: warning: Added loop label VITIS_LOOP_639_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_639_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52303:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52333:5: warning: Added loop label VITIS_LOOP_669_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_669_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52333:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52360:5: warning: Added loop label VITIS_LOOP_696_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_696_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52360:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52389:5: warning: Added loop label VITIS_LOOP_725_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_725_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52389:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52410:5: warning: Added loop label VITIS_LOOP_746_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_746_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52410:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52428:5: warning: Added loop label VITIS_LOOP_764_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_764_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52428:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52448:5: warning: Added loop label VITIS_LOOP_784_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_784_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52448:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52544:9: warning: Added loop label VITIS_LOOP_73_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_73_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52544:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52551:13: warning: Added loop label VITIS_LOOP_80_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_80_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52551:13: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52560:9: warning: Added loop label VITIS_LOOP_89_3:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_89_3: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52560:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52569:13: warning: Added loop label VITIS_LOOP_98_4:   [xilinx-label-all-loops]
+            for (int j = 0; j < pack_diff; j++) {
+            ^~~
+            VITIS_LOOP_98_4: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52569:13: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52573:17: warning: Added loop label VITIS_LOOP_102_5:   [xilinx-label-all-loops]
+                for (int k = 0; k < res_T::size; k++) {
+                ^~~
+                VITIS_LOOP_102_5: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52573:17: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52584:9: warning: Added loop label VITIS_LOOP_113_6:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_113_6: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52584:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52588:13: warning: Added loop label VITIS_LOOP_117_7:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_117_7: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52588:13: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52612:9: warning: Added loop label VITIS_LOOP_141_1:   [xilinx-label-all-loops]
+        for (int j = 0; j < n_dupl; j++) {
+        ^~~
+        VITIS_LOOP_141_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52612:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52616:13: warning: Added loop label VITIS_LOOP_145_2:   [xilinx-label-all-loops]
+            for (int k = 0; k < res_T::size; k++) {
+            ^~~
+            VITIS_LOOP_145_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52616:13: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52635:9: warning: Added loop label VITIS_LOOP_164_1:   [xilinx-label-all-loops]
+        for (int k = 0; k < res_T::size; k++) {
+        ^~~
+        VITIS_LOOP_164_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52635:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52861:9: warning: Added loop label VITIS_LOOP_213_1:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_213_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52861:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52870:9: warning: Added loop label VITIS_LOOP_222_2:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_222_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52870:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52976:5: warning: Added loop label VITIS_LOOP_328_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_328_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52976:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52981:9: warning: Added loop label VITIS_LOOP_333_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_333_2: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52981:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52989:9: warning: Added loop label VITIS_LOOP_341_3:   [xilinx-label-all-loops]
+        for (int i = 1; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_341_3: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52989:9: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53567:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53641:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53723:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53896:5: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+    for (unsigned k = 0; k < CONFIG_T::n_out; k++) {
+    ^~~
+    VITIS_LOOP_14_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53896:5: note: FIX-IT applied suggested code changes
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53956:9: warning: Added loop label VITIS_LOOP_74_1:   [xilinx-label-all-loops]
+        for (int im = 0; im < CONFIG_T::n_out; im++) {
+        ^~~
+        VITIS_LOOP_74_1: 
+C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53956:9: note: FIX-IT applied suggested code changes

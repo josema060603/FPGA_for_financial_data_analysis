@@ -1,0 +1,5 @@
+4 warnings and 3 errors generated.
+Error while processing C:\Users\josem\Documents\SynthesisTryOut\FPGA_for_financial_data_analysis\hls_project\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp.
+clang-tidy applied 78 of 78 suggested fixes.
+Suppressed 252 warnings (248 in non-user code, 4 with check filters).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

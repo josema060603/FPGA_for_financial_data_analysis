@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "myproject",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "myproject"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/build_prj.tcl",
+    "sourceLine": 184,
+    "success": true
+  }
+]

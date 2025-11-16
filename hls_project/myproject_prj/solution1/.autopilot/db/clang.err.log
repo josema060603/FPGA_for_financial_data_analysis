@@ -1,0 +1,13 @@
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:12:
+In file included from firmware/nnet_utils/nnet_dense.h:7:
+firmware/nnet_utils/nnet_dense_resource.h:33:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+firmware/nnet_utils/nnet_dense_resource.h:107:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+firmware/nnet_utils/nnet_dense_resource.h:189:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+3 warnings generated.

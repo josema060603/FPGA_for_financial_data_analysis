@@ -156,7 +156,7 @@ os.makedirs(tb_dir1, exist_ok=True)
 os.makedirs(tb_dir2, exist_ok=True)
 
 np.savetxt(os.path.join(tb_dir1, "tb_input_features.dat"),  Xc,   fmt="%.10e")
-np.savetxt(os.path.join(tb_dir1, "tb_output_predictions.dat"), y_ref, fmt="%.10e")
+np.savetxt(os.path.join(tb_dir1, "tb_output_predictions.dat"), y_hls, fmt="%.10e")
 
 np.savetxt(os.path.join(tb_dir2, "tb_input_features.dat"),  Xc,   fmt="%.10e")
 np.savetxt(os.path.join(tb_dir2, "tb_output_features.dat"),  y_ref_prediction,   fmt="%.10e")

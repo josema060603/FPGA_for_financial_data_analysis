@@ -107,13 +107,13 @@ for n in dense_names:
     cfg['LayerName'][n]['Precision']['weight'] = layer_precision_select
 
 # 6) Convert, emulate, and check MAE
-outdir = os.path.expanduser('~/senior_design_project_v3_housingbased/hls_project')
+outdir = os.path.expanduser('~/senior_design_project_v3_housingbased/hls_project_vivadoaccelerator')
 os.makedirs(outdir, exist_ok=True)
 
 hls_model = hls4ml.converters.convert_from_keras_model(
     model,
     hls_config=cfg,
-    backend='Vitis',
+    backend='VivadoAccelerator',
     part='xc7z020clg400-1',
     clock_period=100,
     io_type='io_parallel',      # or 'io_stream' if you prefer

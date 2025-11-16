@@ -2,6 +2,7 @@
     <config>
         <config_compile name_max_length="80" complex-mul-dsp="0"/>
         <config_schedule enable_dsp_full_reg="0"/>
+        <config_export format="ip_catalog" version="1.0.0"/>
     </config>
     <Simulation argv="">
         <SimFlow name="cosim" setup="true" dumpTrace="all" optimizeCompile="false" ldflags="" mflags="" compiledLibrary="" toolName="xsim">

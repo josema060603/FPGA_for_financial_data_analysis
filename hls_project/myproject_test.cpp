@@ -13,7 +13,7 @@
 // hls-fpga-machine-learning insert bram
 
 #define CHECKPOINT 5000
-
+#define RTL_SIM 1
 namespace nnet {
 bool trace_enabled = true;
 std::map<std::string, void *> *trace_outputs = NULL;

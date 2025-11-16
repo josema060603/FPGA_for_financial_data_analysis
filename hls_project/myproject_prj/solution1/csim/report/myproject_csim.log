@@ -1,11 +1,9 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch GCC as the compiler.
-   Compiling ../../../../myproject_test.cpp in debug mode
-   Compiling ../../../../firmware/myproject.cpp in debug mode
-   Generating csim.exe
+make: 'csim.exe' is up to date.
 Processing input 0
 Predictions
-0.516148 
+0.514648 
 Quantized predictions
 0.514648 
 INFO: Saved inference results to file: tb_data/csim_results.log

@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Sat Nov 15 21:59:16 2025
-# Process ID: 3384
+# Start of session at: Sat Nov 15 23:04:14 2025
+# Process ID: 35528
 # Current directory: C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog
 # Command line: xsim.exe -mode tcl -source {xsim.dir/myproject/xsim_script.tcl}
 # Log file: C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/xsim.log
@@ -533,7 +533,7 @@ source myproject.tcl
 // RTL Simulation : 464 / 464 [100.00%] @ "1446350000"
 ////////////////////////////////////////////////////////////////////////////////////
 $finish called at time : 1446950 ns : File "C:/Users/josem/Documents/SynthesisTryOut/FPGA_for_financial_data_analysis/hls_project/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 291
-run: Time (s): cpu = 00:00:06 ; elapsed = 00:02:05 . Memory (MB): peak = 253.164 ; gain = 17.605
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:54 . Memory (MB): peak = 252.543 ; gain = 17.375
 ## quit
-INFO: xsimkernel Simulation Memory Usage: 42604 KB (Peak: 42604 KB), Simulation CPU Usage: 112577 ms
-INFO: [Common 17-206] Exiting xsim at Sat Nov 15 22:01:26 2025...
+INFO: xsimkernel Simulation Memory Usage: 42424 KB (Peak: 42424 KB), Simulation CPU Usage: 52437 ms
+INFO: [Common 17-206] Exiting xsim at Sat Nov 15 23:05:14 2025...

@@ -253,7 +253,7 @@ def download_etf_data(ticker='VNQ', years=10):
     #     if df is not None and len(df) > 0:
     #         break
     #     if attempt < 3:
-    #         time.sleep(2)  # wait a bit before retry
+    #         time.sleep(2)  # wait a bit before retry 
     
     # If that didnt work, try yahooquery
     if df is None or len(df) == 0:

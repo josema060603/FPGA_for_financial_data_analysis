@@ -56,7 +56,7 @@ cfg = hls4ml.utils.config_from_keras_model(model, granularity='name')
 cfg['Model']['ReuseFactor'] = 32  # default for any layer not overridden
 cfg['LayerName']['hidden_1']['ReuseFactor'] = 32   # 1536/32 ≈ 48 parallel mult
 cfg['LayerName']['hidden_2']['ReuseFactor'] = 32   # 2048/64 ≈ 32 parallel mult
-cfg['Model']['Strategy'] = 'Latency'
+cfg['Model']['Strategy'] = 'Resource'
 # 2) IO tensor names
 in_name  = model.input.name.split(':')[0]
 out_name = model.output.name.split(':')[0]
@@ -107,7 +107,7 @@ for n in dense_names:
     cfg['LayerName'][n]['Precision']['weight'] = layer_precision_select
 
 # 6) Convert, emulate, and check MAE
-outdir = os.path.expanduser('~/senior_design_project_v3_housingbased/hls_project_b')
+outdir = os.path.expanduser('~/senior_design_project_v3_housingbased/hls_project_resource')
 os.makedirs(outdir, exist_ok=True)
 
 hls_model = hls4ml.converters.convert_from_keras_model(

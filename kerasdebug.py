@@ -53,9 +53,9 @@ import hls4ml
 
 # 1) Start from auto config
 cfg = hls4ml.utils.config_from_keras_model(model, granularity='name')
-cfg['Model']['ReuseFactor'] = 32  # default for any layer not overridden
-cfg['LayerName']['hidden_1']['ReuseFactor'] = 32   # 1536/32 ≈ 48 parallel mult
-cfg['LayerName']['hidden_2']['ReuseFactor'] = 32   # 2048/64 ≈ 32 parallel mult
+cfg['Model']['ReuseFactor'] = 64  # default for any layer not overridden
+cfg['LayerName']['hidden_1']['ReuseFactor'] = 64   
+cfg['LayerName']['hidden_2']['ReuseFactor'] = 64   
 cfg['Model']['Strategy'] = 'Resource'
 # 2) IO tensor names
 in_name  = model.input.name.split(':')[0]

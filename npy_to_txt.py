@@ -1,59 +1,74 @@
-import numpy as np
+#!/usr/bin/env python3
+import sys
 
-FRAC_BITS = 16
-SCALE = 1 << FRAC_BITS  # 2^16
-INT_MIN = -2**31
-INT_MAX =  2**31 - 1
+# Fixed-point type: ap_fixed<32,16>
+W = 32          # total bits
+I = 16          # integer bits (including sign)
+F = W - I       # fractional bits
+SCALE = 1 << F  # 2^F
 
-def float_to_ap_fixed_32_16(x: float) -> int:
+N_FEATURES = 75
+
+
+def float_to_fixed32(x: float) -> int:
+    """Quantize float x to signed 32-bit 2's complement with F fractional bits."""
+    q = int(round(x * SCALE))  # quantized integer
+
+    # Saturate to signed 32-bit range just in case
+    min_q = -(1 << (W - 1))
+    max_q = (1 << (W - 1)) - 1
+    if q < min_q:
+        q = min_q
+    elif q > max_q:
+        q = max_q
+
+    # Return as unsigned 32-bit 2's complement
+    return q & ((1 << W) - 1)
+
+
+def pack_features_to_bus(features):
     """
-    Convert Python float to ap_fixed<32,16> stored as signed 32-bit int.
+    Pack N_FEATURES fixed-point words (32-bit each) into a 2400-bit bus:
+    feature i -> bits [32*i +: 32]
     """
-    q = int(round(x * SCALE))
+    bus = 0
+    for i, x in enumerate(features):
+        word = float_to_fixed32(x)
+        bus |= int(word) << (W * i)
+    return bus
 
-    # Saturate to signed 32-bit range
-    if q < INT_MIN:
-        q = INT_MIN
-    elif q > INT_MAX:
-        q = INT_MAX
 
-    return q
+def main():
+    if len(sys.argv) < 2:
+        print(f"Usage: {sys.argv[0]} tb_input_features.dat > stimuli.vh", file=sys.stderr)
+        sys.exit(1)
 
-def ap_fixed_32_16_to_hex(x: float) -> str:
-    """
-    Convert Python float to 8-hex-digit two's-complement string.
-    """
-    q = float_to_ap_fixed_32_16(x)
-    u = q & 0xFFFFFFFF         # unsigned view for hex
-    return f"{u:08X}"
-# 1) Load your data
-X = np.load("prepared/X_test.npy")   # shape: (N, 75) expected
+    infile = sys.argv[1]
 
-print("Shape of X:", X.shape)
+    with open(infile, "r") as f:
+        for idx, line in enumerate(f):
+            line = line.strip()
+            if not line:
+                continue
 
-# 2) Convert each sample to one 2400-bit Verilog literal
-with open("stimuli_2400bit.txt", "w") as f:
-    for sample in X:
-        # sample: shape (75,)
-        assert sample.shape[0] == 75, "Expected 75 features per sample"
+            # Parse floats on this line
+            parts = line.split()
+            vals = [float(x) for x in parts]
 
-        # Convert each feature to hex word (feature[0] .. feature[74])
-        words = [ap_fixed_32_16_to_hex(float(v)) for v in sample]
+            if len(vals) != N_FEATURES:
+                print(
+                    f"Warning: line {idx} has {len(vals)} values, expected {N_FEATURES}",
+                    file=sys.stderr,
+                )
 
-        # HLS flattens as:
-        # feature[0] -> bits [31:0]
-        # feature[1] -> bits [63:32]
-        # ...
-        # feature[74] -> bits [2399:2368]
-        #
-        # In a single literal, the *leftmost* hex is the MSB,
-        # so we put feature[74] first, feature[0] last:
-        bus_hex = ''.join(reversed(words))
+            bus = pack_features_to_bus(vals)
 
-        verilog_literal = f"2400'h{bus_hex}"
-        f.write(verilog_literal + "\n")
-        
-with open("stimuli_words.txt", "w") as f:
-    for sample in X:
-        words = [ap_fixed_32_16_to_hex(float(v)) for v in sample]
-        f.write(' '.join(words) + "\n")
+            # 2400 bits = 600 hex digits; pad with leading zeros
+            hex_str = f"{bus:0600X}"
+
+            # Print as localparam literal
+            print(f"localparam [2399:0] VEC{idx} = 2400'h{hex_str};")
+
+
+if __name__ == "__main__":
+    main()

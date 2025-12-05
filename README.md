@@ -1,6 +1,7 @@
 # Housing ETF MLP Predictor
 
 Machine learning model that predicts daily movements of housing ETFs using technical indicators.
+![alt text](FPGA_For_Financial_Data_Analysis_page-0001.jpg)
 
 ## Pre-Trained Model
 

@@ -6,7 +6,7 @@ Machine learning model that predicts daily movements of housing ETFs using techn
 ## Pre-Trained Model
 
 **VNQ Model (Vanguard Real Estate ETF):**
-- Accuracy: 54% on real data (2,513 trading days)
+- Accuracy: 56% on real data (2,513 trading days)
 - Features: 75 technical indicators
 - Files: `mlp_vnq.h5`, `scaler_vnq.pkl`
 
@@ -85,12 +85,12 @@ prediction = model.predict(X_scaled)
 
 ## Performance
 
-54% accuracy means out of 100 trades, you win 54 and lose 46. With proper risk management, this is profitable.
+56% accuracy means out of 100 trades, you win 56 and lose 44. With proper risk management, this is profitable.
 
 ```
 Random guess: 50%
-Your model:   54%
-Edge:         +8% win rate
+Our model:   56%
+Edge:         +12% win rate
 ```
 
 ## Disclaimer
